@@ -106,5 +106,5 @@ if(isset($_POST['importSubmit'])){
     }
     
     // Redirect to the listing page
-    header("Location: test.php".$qstring);
+    header("Location: index.php".$qstring);
 ?>
